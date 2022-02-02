@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Header from "../components/Header";
 
 export default function Home() {
     return (
@@ -11,7 +12,8 @@ export default function Home() {
             </Head>
 
             <h1 className="text-3xl font-bold underline">
-            Hulu 2.0</h1>
+                Hulu 2.0</h1>
+            <Header/>
 
         </div>
     )
