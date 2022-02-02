@@ -24,8 +24,25 @@ export default {
     fetchRomanceMovies: {
         title: 'Romance',
         url: `/discover/movie?api_key=${API_KEY}&with_genres=10749`
-    },fetchMystery: {
+    },
+    fetchMystery: {
         title: 'Mystery',
         url: `/discover/movie?api_key=${API_KEY}&with_genres=9648`
+    },
+    fetchSciFi: {
+        title: 'Sci-Fi',
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=878`
+    },
+    fetchWestern: {
+        title: 'Western',
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=10749`
+    },
+    fetchAnimation: {
+        title: 'Animation',
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=10749`
+    },
+    fetchTv: {
+        title: 'Tv Movie',
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=10749`
     },
 }
