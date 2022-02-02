@@ -11,8 +11,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <h1 className="text-3xl font-bold underline">
-                Hulu 2.0</h1>
+
             <Header/>
 
         </div>
